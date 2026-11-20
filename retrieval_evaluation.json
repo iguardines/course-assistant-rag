@@ -1,0 +1,163 @@
+[
+  {
+    "query": "Do I need programming experience?",
+    "before": {
+      "expected_source": "data/course_overview.md",
+      "rank": 2,
+      "sources": [
+        "data/course_syllabus.md",
+        "data/course_overview.md",
+        "data/contact.md",
+        "data/enrollment_and_payment.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/prerequisites.md",
+      "rank": 1,
+      "sources": [
+        "data/prerequisites.md",
+        "data/syllabus.md",
+        "data/access_and_format.md",
+        "data/enrollment.md"
+      ]
+    }
+  },
+  {
+    "query": "Can someone who has never written code take this course?",
+    "before": {
+      "expected_source": "data/course_overview.md",
+      "rank": 2,
+      "sources": [
+        "data/contact.md",
+        "data/course_overview.md",
+        "data/course_syllabus.md",
+        "data/enrollment_and_payment.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/prerequisites.md",
+      "rank": 1,
+      "sources": [
+        "data/prerequisites.md",
+        "data/access_and_format.md",
+        "data/syllabus.md",
+        "data/enrollment.md"
+      ]
+    }
+  },
+  {
+    "query": "How much does the course cost and how can I pay?",
+    "before": {
+      "expected_source": "data/enrollment_and_payment.md",
+      "rank": 1,
+      "sources": [
+        "data/enrollment_and_payment.md",
+        "data/contact.md",
+        "data/course_syllabus.md",
+        "data/course_overview.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/enrollment.md",
+      "rank": 1,
+      "sources": [
+        "data/enrollment.md",
+        "data/access_and_format.md",
+        "data/syllabus.md",
+        "data/prerequisites.md"
+      ]
+    }
+  },
+  {
+    "query": "How long can I access the videos and WhatsApp group?",
+    "before": {
+      "expected_source": "data/course_overview.md",
+      "rank": 1,
+      "sources": [
+        "data/course_overview.md",
+        "data/contact.md",
+        "data/course_syllabus.md",
+        "data/enrollment_and_payment.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/access_and_format.md",
+      "rank": 1,
+      "sources": [
+        "data/access_and_format.md",
+        "data/enrollment.md",
+        "data/syllabus.md",
+        "data/prerequisites.md"
+      ]
+    }
+  },
+  {
+    "query": "Are the classes live or recorded?",
+    "before": {
+      "expected_source": "data/course_overview.md",
+      "rank": 2,
+      "sources": [
+        "data/course_syllabus.md",
+        "data/course_overview.md",
+        "data/contact.md",
+        "data/enrollment_and_payment.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/access_and_format.md",
+      "rank": 1,
+      "sources": [
+        "data/access_and_format.md",
+        "data/syllabus.md",
+        "data/enrollment.md",
+        "data/prerequisites.md"
+      ]
+    }
+  },
+  {
+    "query": "Will I learn Pandas and how to move data between Excel and Python?",
+    "before": {
+      "expected_source": "data/course_syllabus.md",
+      "rank": 2,
+      "sources": [
+        "data/course_overview.md",
+        "data/course_syllabus.md",
+        "data/enrollment_and_payment.md",
+        "data/contact.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/syllabus.md",
+      "rank": 2,
+      "sources": [
+        "data/prerequisites.md",
+        "data/syllabus.md",
+        "data/access_and_format.md",
+        "data/enrollment.md"
+      ]
+    }
+  },
+  {
+    "query": "How can I contact the course owner?",
+    "before": {
+      "expected_source": "data/contact.md",
+      "rank": 1,
+      "sources": [
+        "data/contact.md",
+        "data/enrollment_and_payment.md",
+        "data/course_syllabus.md",
+        "data/course_overview.md"
+      ]
+    },
+    "after": {
+      "expected_source": "data/enrollment.md",
+      "rank": 1,
+      "sources": [
+        "data/enrollment.md",
+        "data/access_and_format.md",
+        "data/syllabus.md",
+        "data/prerequisites.md"
+      ]
+    }
+  }
+]

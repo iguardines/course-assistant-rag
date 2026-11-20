@@ -1,0 +1,22 @@
+[
+  {
+    "case": "answerable",
+    "query": "Do I need programming experience?",
+    "passed": true,
+    "response": {
+      "text": "No prior programming experience is required for the course. It is suitable for beginners who have never programmed or used a Python script.",
+      "references": [
+        "data/prerequisites.md"
+      ]
+    }
+  },
+  {
+    "case": "unanswerable",
+    "query": "Which university accredits the course certificate?",
+    "passed": true,
+    "response": {
+      "text": "I don't know",
+      "references": []
+    }
+  }
+]
